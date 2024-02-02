@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.tablistcontainer {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.tablist {
+  color: #7b8794;
+  font-size: 20px;
+  margin-right: 40px;
+border: 0px;
+background-color: transparent;
+}
+.tab-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  color: #7b8794;
+  cursor: pointer;
+}
+.active-tab {
+  border-bottom: 2px solid #0b69ff;
+  color: #0b69ff;
+}

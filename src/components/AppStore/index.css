@@ -1,0 +1,117 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  font-family: Bree serif;
+}
+@media all and (max-width: 576px) {
+  .background-contrainer {
+    background-image: linear-gradient(#fff1eb, #ace0f9);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .content-container {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.searchfield-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: solid 1px #1e293b;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  width: 150px;
+  margin-left: 100px;
+}
+.searchfield {
+  height: 60px;
+  width: 500px;
+  border: 0px;
+  font-size: 30px;
+  background-color: transparent;
+  padding-left: 15px;
+}
+.searchIcon {
+  height: 40px;
+  padding-right: 15px;
+}
+.unorderlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+}
+@media all and (min-width:768px){
+
+.background-contrainer {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+.content-container {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.searchfield-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: solid 1px #1e293b;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  width: 500px;
+  margin-left: 30px;
+}
+.searchfield {
+  height: 60px;
+  width: 500px;
+  border: 0px;
+  font-size: 30px;
+  background-color: transparent;
+  padding-left: 15px;
+}
+.searchIcon {
+  height: 40px;
+  padding-right: 15px;
+}
+.unorderlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 900px;
+}
+.tablistnew{
+    display: flex;
+}
+}
